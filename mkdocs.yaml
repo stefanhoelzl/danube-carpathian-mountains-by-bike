@@ -1,0 +1,10 @@
+site_name: Entlang der Donau ans Schwarze Meer und über die Karpaten.
+theme:
+  name: mkdocs
+  include_sidebar: false
+  color_mode: auto
+plugins: []
+extra_css:
+  - extra.css
+hooks:
+  - hooks/track.py
