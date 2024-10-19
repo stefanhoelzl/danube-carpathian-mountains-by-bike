@@ -1,4 +1,5 @@
 site_name: Entlang der Donau ans Schwarze Meer und über die Karpaten.
+site_url: https://stefanhoelzl.github.io/danube-carpathian-mountains-by-bike/
 theme:
   name: mkdocs
   include_sidebar: false
