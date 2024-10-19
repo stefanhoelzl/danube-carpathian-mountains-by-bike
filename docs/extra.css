@@ -8,6 +8,19 @@ body.homepage>div.container>div.row>div.col-md-9 {
     max-width: 100%;
 }
 
+td,th {
+    padding-inline-end: 1em;
+}
+
+details {
+    padding: 0.1em;
+    margin: 0.25em;
+}
+
+details>summary {
+    font-family: monospace,serif;
+}
+
 .track-map {
     width: 100%;
     height: 80vh;
