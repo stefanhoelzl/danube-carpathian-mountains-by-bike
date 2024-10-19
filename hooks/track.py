@@ -1,15 +1,14 @@
 import re
 import json
-import threading
 import urllib.parse
-from http.server import HTTPServer, SimpleHTTPRequestHandler, test
+from pathlib import Path
 
 from mkdocs.config import Config
 from mkdocs.structure.pages import Page
-from mkdocs.structure.files import Files
+from mkdocs.structure.files import Files, File, InclusionLevel
 
-
-TrackPattern = r"track\((?P<url>[^)]+)\)"
+TrackPath = Path(__file__).parent.parent / "tracks"
+TrackPattern = r"track\((?P<name>[^)]+)\)"
 TrackTemplate = f"""
 <div class="track-map">
   <iframe src="https://gpx.studio/embed?options=TRACK_OPTIONS"></iframe>
@@ -25,30 +24,22 @@ OPTIONS = {
     }
 }
 
-class CORSRequestHandler (SimpleHTTPRequestHandler):
-    def end_headers (self):
-        self.send_header('Access-Control-Allow-Origin', '*')
-        SimpleHTTPRequestHandler.end_headers(self)
-
-_RuntimeContext = {
-    "base_url": "https://raw.githubusercontent.com/stefanhoelzl/danube-carpathian-mountains-by-bike/refs/heads/main/tracks/",
-}
-
-def on_startup(command: str, dirty: bool) -> None:
-    if command != "gh-pages":
-        _RuntimeContext["base_url"] = "http://localhost:8001/tracks/"
-
-    if command == "serve":
-        threading.Thread(
-            target=test,
-            args=[CORSRequestHandler, HTTPServer],
-            kwargs={"port": 8001},
-            daemon=True,
-        ).start()
+def on_files(files: Files, config: Config) -> Files:
+    for track in TrackPath.glob("*.gpx"):
+        files.append(
+            File(
+                track.name,
+                str(track.parent),
+                str(Path(config["site_dir"], "tracks")),
+                use_directory_urls=False,
+                inclusion=InclusionLevel.NOT_IN_NAV
+            )
+        )
+    return files
 
 def on_page_markdown(markdown: str, page: Page, config: Config, files: Files) -> str:
     for match in re.finditer(TrackPattern, markdown):
-        url = _RuntimeContext["base_url"] + match.group("url")
+        url = urllib.parse.urljoin(config["site_url"], f"tracks/{match.group('name')}")
         markdown = markdown.replace(
             match.group(),
             TrackTemplate.replace(

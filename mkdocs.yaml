@@ -9,3 +9,5 @@ extra_css:
   - extra.css
 hooks:
   - hooks/track.py
+headers:
+  Access-Control-Allow-Origin: "*"
