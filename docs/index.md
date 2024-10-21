@@ -1,3 +1,4 @@
+# Etappen
 track(2024-09-10 Apostag.gpx,Budapest,Apostag,91,340,483,273,290)
 track(2024-09-11 Baja.gpx,Apostag,Baja,109,359,517,294,302)
 track(2024-09-12 Sombor.gpx,Baja,Sombor,92,317,453,191,187)
@@ -23,3 +24,15 @@ track(2024-10-06 Brasov.gpx,Gresu,Brasov,127,430,510,907,989)
 track(2024-10-08 Victoria.gpx,Brasov,Victoria,113,359,411,1150,1178)
 track(2024-10-09 Sibiu.gpx,Victoria,Sibiu,119,412,479,867,1002)
 track(complete.gpx,Budapest,Sibiu,2310,7984,10249,14895,14609)
+
+# Ausgaben
+Ich habe 250€ für die An- und Abreise und pro Tag im Schnitt 74€ ausgegeben.
+Ungefähr die eine Hälfte der täglichen Ausgaben war für Übernachtungen, 
+die andere Hälfte für Restaurantbesuche.
+Für Lebensmitteleinkäufe im Supermarkt habe ich weniger als 100€ ausgegeben.
+
+Am günstigsten waren die Übernachtungen in Serbien mit 10-25€ pro Nacht. 
+In Bulgarien wurde es etwas teurer mit 20€-30€ pro Nacht, 
+mit einer Ausnahme eine etwas teureren Hotels mit 40€ pro Nacht. 
+Am teuersten war es in Rumänien mit 30€-50€ pro Nacht,
+mit einer Ausnahme eines etwas teureren Hotels mit 86€ pro Nacht.
