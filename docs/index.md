@@ -25,6 +25,17 @@ track(2024-10-08 Victoria.gpx,Brasov,Victoria,113,359,411,1150,1178)
 track(2024-10-09 Sibiu.gpx,Victoria,Sibiu,119,412,479,867,1002)
 track(complete.gpx,Budapest,Sibiu,2310,7984,10249,14895,14609)
 
+# Ausstattung
+## Fahrrad
+* [Campus](https://www.campus-bike.de/) TR-light
+* Rohloff Speedhub 14-Gang Nabenschaltung mit Kette
+* Bremse Shimano XT
+* Beleuchtung SON Edelux
+* Nabendynamo SON28
+* Reifen Schwalbe Marathon Mondial
+* Sattelstütze by Schulz G2 LT gefedert
+* Rahmenschloss
+
 # An- und Abreise
 Für die Anreise gibt es gute Verbindungen mit Bahn und Fernbus nach Budapest, 
 welche auch Räder transportieren.
