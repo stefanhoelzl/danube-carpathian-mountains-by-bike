@@ -25,6 +25,22 @@ track(2024-10-08 Victoria.gpx,Brasov,Victoria,113,359,411,1150,1178)
 track(2024-10-09 Sibiu.gpx,Victoria,Sibiu,119,412,479,867,1002)
 track(complete.gpx,Budapest,Sibiu,2310,7984,10249,14895,14609)
 
+# An- und Abreise
+Für die Anreise gibt es gute Verbindungen mit Bahn und Fernbus nach Budapest, 
+welche auch Räder transportieren.
+
+Die Rückreise hat sich schon etwas schwieriger gestaltet. 
+Am Ende habe ich einen Fernbus von Sibiu nach Budapest gefunden, welcher auch Räder transportiert.
+Die Heimreise hat so 2 Tage gedauert mit 11h und 9h Busfahrt.
+
+Generell sollte man für die Heimreise etwas Zeit mitbringen und planen wie man mit Fahrrad wieder heimkommt.
+Von Bucharest gibt es auch eine Fernbuslinie nach Budapest. 
+Zugverbindungen, welche Räder transportieren, sind in Rumänien etwas schwieriger zu finden.
+Von Bucharest nach Budapest sollte es aber mit einmal Umsteigen möglich sein.
+Von Konstanza nach Bucharest gibt es wohl auch einen privaten Betreiber, welcher Räder mitnimmt.
+
+*Die Infos waren im September/Oktober 2024 aktuell und können sich ständig ändern.*
+
 # Ausgaben
 Ich habe 250€ für die An- und Abreise und pro Tag im Schnitt 74€ ausgegeben.
 Ungefähr die eine Hälfte der täglichen Ausgaben war für Übernachtungen, 
