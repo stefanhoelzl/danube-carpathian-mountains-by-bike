@@ -36,6 +36,11 @@ track(complete.gpx,Budapest,Sibiu,2310,7984,10249,14895,14609)
 * Sattelstütze by Schulz G2 LT gefedert
 * Rahmenschloss
 
+## Taschen
+* 2x Seitentaschen am Gepäckträger mit je ~25l
+* 1x Oberrohrtasche mit 3l
+* 1x Oberrohrtasche mit 0.5l und Handyfach
+
 # An- und Abreise
 Für die Anreise gibt es gute Verbindungen mit Bahn und Fernbus nach Budapest, 
 welche auch Räder transportieren.
